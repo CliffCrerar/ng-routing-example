@@ -1,0 +1,14 @@
+section {
+  max-width: 500px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.name,
+.value {
+  margin: 10px;
+}

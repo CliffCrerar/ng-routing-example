@@ -1,6 +1,6 @@
 {
   "name": "ng-routes",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "author": {"name":"Cliff Crerar", "email": "info@infinityarc.net"},
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.0.3",
@@ -19,6 +20,7 @@
     "@angular/platform-browser": "~10.0.3",
     "@angular/platform-browser-dynamic": "~10.0.3",
     "@angular/router": "~10.0.3",
+    "markdown-it": "^11.0.0",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

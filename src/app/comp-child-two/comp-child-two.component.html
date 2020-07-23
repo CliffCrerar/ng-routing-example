@@ -1,0 +1,17 @@
+<h2>View Something</h2>
+
+<section>
+    <div class="grid">
+        <ng-container *ngFor="let obj of getValuesArray(model)">
+            <div class="name">{{obj.name}}</div>
+            <div class="value">{{obj.value}}</div>
+        </ng-container>
+    </div>
+
+    <div>
+        <!-- Back button goes here -->
+    </div>
+
+    <app-challenge></app-challenge>
+    <!-- REMOVE THIS FOR CHALLENGE COMPLETION -->
+</section>

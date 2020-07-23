@@ -1,0 +1,14 @@
+<h2>Create Something</h2>
+<form #form="ngForm">
+
+  <input #idInput name="id" readonly [value]="id"><br>
+
+  <input #inputOne required ngModel name="input-one" placeholder="type something">
+  <small *ngIf="inputOneInvalid">Not Valid</small><br>
+
+  <input #inputTwo required ngModel name="input-two" placeholder="type something">
+  <small *ngIf="inputTwoInvalid">Not Valid</small><br>
+
+  <button (click)="onSubmit()" name="submit" type="submit">View Creation</button>
+
+</form>

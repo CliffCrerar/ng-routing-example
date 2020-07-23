@@ -1,3 +1,5 @@
+import { Challenge } from './ch';
 export const environment = {
-  production: true
+  production: true,
+  challenge: Challenge.fetchChallenge
 };
