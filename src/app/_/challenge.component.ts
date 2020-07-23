@@ -1,5 +1,5 @@
 import { Component, Inject } from '@angular/core';
-import { environment } from 'src/environments/environment.prod';
+import { environment } from '../../environments/environment';
 import * as marked from 'markdown-it';
 
 @Component({
